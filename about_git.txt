@@ -1,0 +1,8 @@
+从 21 年 8 月 13 后不再支持用户名密码的方式验证了，需要创建个人访问令牌(personal access token)。
+
+得到token 后 
+
+修改现有的 url git remote set-url origin  https://<your_token>@github.com/<USERNAME>/<REPO>.git
+命令说明：将<your_token>换成你自己得到的令牌。<USERNAME>是你自己github的用户名，<REPO>是你的项目名称
+
+换成你自己得到的令牌。是你自己github的用户名，`是你的项目名称。然后再次执行 pull push 操作
