@@ -1,2 +1,2 @@
 add in branch1
-write a new line
+write a new line forget a .
